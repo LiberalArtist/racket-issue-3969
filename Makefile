@@ -5,3 +5,4 @@ all:
 	./racket/bin/racket $(ARGS)
 	./layer/bin/racket $(ARGS)
 	file ./layer/bin/racket
+	cat ./layer/bin/racket | ./layer/bin/racket -e '(regexp-match #rx#"bINARy tYPe:..(.)" (current-input-port))'

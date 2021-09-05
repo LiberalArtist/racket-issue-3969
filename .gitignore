@@ -1,0 +1,9 @@
+/racket/
+/layer/bin/
+/layer/lib/
+*~
+\#*
+.\#*
+.DS_Store
+compiled/
+/doc/
